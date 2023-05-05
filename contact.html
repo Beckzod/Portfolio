@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <!--Header section-->
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header__brand">
+                <a href="index.html"><img src="./images/logo.png" alt="My logotip"></a>
+            </div>
+            <nav class="main-navigation">
+               <ul class="main-navigation__items">
+                <li class="main-navigation__item "><a href="/index.html">Menu</a></li>
+                <li class="main-navigation__item"><a href="#">About me</a></li>
+                <li class="main-navigation__item"><a href="#">My services</a></li>
+                <li class="main-navigation__item"><a href="#">My clients</a></li>
+                <li class="main-navigation__item"><a href="#">Portfolio</a></li>
+                <li class="main-navigation__item"><a href="#">My blog</a></li>
+                <li class="main-navigation__item"><a href="#">Partners</a></li>
+                <li class="main-navigation__item active "><a href="#">Contact us</a></li>
+
+            
+    
+               </ul> 
+            </nav>
+        </div>
+    </header>
+ 
+   
+    <!--Header section end-->
+    <!--Contact section-->
+     <div class="container">
+        <section class="contact">
+            <div class="section-title">
+                Contact me
+            </div>
+            <form action="/server.php" method="get">
+                <textarea    rows="10" placeholder="Enter message" name="message"></textarea>
+                <div class="half-flex">
+                    <div class="contact-fname">
+                        <input type="text" placeholder="Enter Name" name="fname" >
+                    </div>
+                    <div class="contact-email">
+                        <input type="email" placeholder="Enter Email" name="email" >
+                    </div>
+                </div>
+                <input type="text" placeholder="Subject" name="subject">
+                <button class="button contact-send"  type="submit">Send Message</button>
+            </form>
+
+        </section>
+
+     </div>
+    <!--Contact section end-->
+    
+    
+   
+   
+    
+    
+    
+      <!--Footer section-->
+      <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">
+                <img src="./images/logo.png" alt="footer logotip">
+            </div>
+            <nav class="footer__navigation">
+                <ul class="footer__navigation-items">
+                 <li class="footer__navigition-item"><a href="#">Menu</a></li>
+                 <li class="footer__navigition-item"><a href="#">About me</a></li>
+                 <li class="footer__navigition-item"><a href="#">My services</a></li>
+                 <li class="footer__navigition-item"><a href="#">My clients</a></li>
+                 <li class="footer__navigition-item"><a href="#">Portfolio</a></li>
+                 <li class="footer__navigition-item"><a href="#">My blog</a></li>
+                 <li class="footer__navigition-item"><a href="#">Partners</a></li>
+     
+                </ul> 
+             </nav>
+             <ul class="footer__socials">
+                <li class="footer__social"><a href="#"><i class="fa-brands fa-telegram" style="line-height: 45px;"></i></a></li>
+                <li class="footer__social"><a href="#"><i class="fa-brands fa-instagram" style="line-height: 45px;" ></i></a></li>
+                <li class="footer__social"><a href="#"><i class="fab fa-linkedin" style="line-height: 45px;"></i></a></li>
+                <li class="footer__social"><a href="#"><i class="fab fa-twitter" style="line-height: 45px;"></i></a></li>
+    
+             </ul>
+             <p class="footer__text">
+                Copyright ©2023 All rights reserved | This template is made with  by Colorlib
+             </p>
+             
+        </div>
+        
+       
+    </footer>
+</body>
+</html>
